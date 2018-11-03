@@ -164,11 +164,70 @@ footer {
             border-radius: 2px; }
 
 .contain {
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 77px 116px; }
   .contain .content_left {
-    margin: 77px 116px;
     float: left; }
+    .contain .content_left img {
+      width: 108%;
+      padding-bottom: 50px; }
+    .contain .content_left p {
+      font-weight: 500; }
   .contain .content_right {
-    float: right; }
+    float: right;
+    width: 24%; }
+    .contain .content_right .card_title {
+      margin: 0; }
+      .contain .content_right .card_title .card {
+        max-width: 100%;
+        border-radius: 0;
+        border: 0;
+        background: #f9f9f9; }
+        .contain .content_right .card_title .card .icon span {
+          padding-right: 15px; }
+        .contain .content_right .card_title .card .user {
+          overflow: hidden; }
+          .contain .content_right .card_title .card .user .left {
+            padding: 20px 10px;
+            float: left; }
+            .contain .content_right .card_title .card .user .left p {
+              font-weight: bold; }
+            .contain .content_right .card_title .card .user .left .view {
+              background: #5261e9;
+              color: white;
+              border-radius: 15px;
+              padding: 5px 20px; }
+              .contain .content_right .card_title .card .user .left .view:hover {
+                background: #a305d3;
+                color: #ffffff; }
+          .contain .content_right .card_title .card .user .right {
+            float: right;
+            padding: 31px 0px; }
+            .contain .content_right .card_title .card .user .right img {
+              width: 66px;
+              border-radius: 34px; }
+        .contain .content_right .card_title .card .contact {
+          text-align: center;
+          padding: 115px 0; }
+          .contain .content_right .card_title .card .contact ul {
+            list-style-type: none;
+            padding: 0 0 15px 0;
+            text-align: center; }
+            .contain .content_right .card_title .card .contact ul li {
+              display: inline-block;
+              padding: 0px 15px 0px 0px; }
+              .contain .content_right .card_title .card .contact ul li a img {
+                width: 20px;
+                border-radius: 34px; }
+            .contain .content_right .card_title .card .contact ul .last {
+              padding: 0; }
+          .contain .content_right .card_title .card .contact .install {
+            background: #5261e9;
+            color: white;
+            border-radius: 30px;
+            padding: 15px 70px; }
+            .contain .content_right .card_title .card .contact .install:hover {
+              background: #a305d3;
+              color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */
